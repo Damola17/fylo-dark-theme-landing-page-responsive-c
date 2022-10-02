@@ -18,23 +18,38 @@
             }
     
             .header-intro-img{
-                padding: 0 8%;
+                padding: 0 10%;
+                padding-top: 3rem;
             }
     
             .header-img{
                 width: 100%;
                 height: auto;
             }
-    
+            
+            .intro-image-bg{
+                background-image: url("../images/bg-curvy-mobile.svg");
+                /* background-size:cover; */
+                background-repeat: no-repeat;
+                background-position: center;
+                /* width: 100%; */
+                height:auto;
+            }
+
             .intro-text-heading{
                 font-size: 1rem;
                 padding: 8% 4%;
+                padding-top: 0.5rem;
                 padding-bottom: 0;
-                line-height: 1.2;
+                line-height: 1.6;
+            }
+
+            .intro-heading{
+                font-size: 1rem;
             }
     
             .intro-paragraph{
-                margin-top: 2rem;
+                /* margin-top: 1rem; */
                 font-size: 0.6rem;
                 padding: 10% 4%;
                 line-height: 1.2rem;
@@ -43,20 +58,30 @@
 
             .cta-intro{
                 font-size: 0.7rem;
+                margin-bottom: 0;
             }
     
             main{
+                /* padding-top: 0;
+                margin-top: 0; */
                 padding-left: 2%;
                 padding-right: 2%;
             }
     
             .main-section-1{
+                /* padding-top: 0;
+                margin-top: 0; */
                 flex-direction: column;
                 padding-top: 8rem;
                 padding-left: 4%;
                 padding-right: 4%;
+                gap: 7rem;
             }
-    
+            
+            /* .main-section-1:first-child{
+                gap: 0;
+            } */
+
             .main-section-1 h1{
                 font-size: 1.2rem;
             }
@@ -175,12 +200,14 @@
     
             input{
                 /* width: 20%; */
-                padding: 0.8rem 2rem;
+                padding: 0.9rem 1.7rem 0.9rem 1rem;
             }
     
             .cta-support-btn{
-                font-size: 0.65rem;
-                padding: 1rem 3rem;
+                font-size: 0.7rem;
+                font-weight: 400;
+                padding: 1.05rem 2.5rem;
+                background-color: hsl(198, 60%, 50%);
             } 
             
             .footer{
@@ -196,6 +223,7 @@
             .footer-logo{
                 padding-top: 17rem;
                 width: 40%;
+                padding-left: 2rem;
             }
     
             .footer-brand-description{
@@ -216,6 +244,7 @@
                 padding-bottom: 0.5rem;
                 font-size: 0.8rem;
                 line-height: 0.7;
+                margin-left: -2rem;
             }
     
             .footer-About-info{
@@ -225,6 +254,11 @@
             
             .footer-About-text{
                 font-size: 0.8rem;
+                margin-left: -1.8rem;
+            }
+
+            .footer-nav-link{
+                margin-left: -3.5rem;
             }
 
             .footer-navs>li>a{
@@ -235,15 +269,20 @@
                 padding-top: 2rem;
                 padding-bottom: 5rem;
             }
-            
+
+            .footer-links{
+                margin-left: -1.2rem;
+            }
+
             .contact-text{
                 font-size: 0.8rem;
+                margin-left: 0;
             }
 
             .footer-social-links{
                 /* justify-content: center; */
                 align-items: center;
-                margin-left: 6rem;
+                margin-left: 5rem;
                 gap: 1rem;
                 padding-bottom: 5%;
             }
@@ -275,6 +314,7 @@
 
         .header-intro-img{
             padding: 0 8%;
+            padding-top: 3.5rem;
         }
 
         .header-img{
@@ -282,15 +322,25 @@
             height: auto;
         }
 
+        .intro-image-bg{
+            background-image: url("../images/bg-curvy-mobile.svg");
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            /* width: 100%; */
+            height:auto;
+        }
+
         .intro-text-heading{
             font-size: 1.2rem;
             padding: 8% 4%;
+            padding-top: 1rem;
             padding-bottom: 0;
-            line-height: 1.2;
+            line-height: 1.5;
         }
 
         .intro-paragraph{
-            margin-top: 2rem;
+            /* margin-top: 1rem; */
             font-size: 0.7rem;
             padding: 10% 4%;
             line-height: 1.2rem;
@@ -320,7 +370,8 @@
 
         .main-section-2{
             flex-direction: column;
-            gap: 0;
+            gap: 3rem;
+            padding-top: 9rem;
         }
 
         .main-section-2 h1{
@@ -408,12 +459,12 @@
 
         input{
             /* width: 20%; */
-            padding: 1rem 3rem;
+            padding: 1rem 3rem 1rem 1rem;
         }
 
         .cta-support-btn{
             font-size: 0.75rem;
-            padding: 1.1rem 4rem;
+            padding: 1.1rem 2.8rem;
         } 
         
         .footer{
@@ -428,7 +479,8 @@
 
         .footer-logo{
             padding-top: 14rem;
-            width: 50%;
+            width: 47%;
+            padding-left: 3rem;
         }
 
         .footer-brand-description{
@@ -438,6 +490,7 @@
 
         .footer-brand-description p{
             text-align: justify;
+            font-size: 0.8rem;
         }
 
         .footer-contact-infos{
@@ -446,15 +499,33 @@
 
         .footer-contact-means{
             padding-bottom: 0.5rem;
+            margin-left: -2rem;
+            font-size: 0.9rem;
         }
+
 
         .footer-About-info{
             padding-top: 5.5rem;
+            margin-left: -2rem;
         }
-        
+
+        .footer-About-text{
+            font-size: 0.95rem;
+        }
+
         .contact-links{
             padding-top: 2rem;
             padding-bottom: 5rem;
+        }
+
+        .contact-text{
+            font-size:0.95rem;
+        }
+
+        .footer-navs>li>a{
+            font-size: 0.9rem;
+            margin-left: -1.8rem;
+           
         }
 
         .footer-social-links{
@@ -474,13 +545,17 @@
 
     @media only screen and (min-width: 481px) and (max-width: 581px){
         header{
-            padding-left: 10%;
-            padding-right: 10% ;
+            padding-left: 8%;
+            padding-right: 8% ;
         }
 
         .header-img{
             width: 100%;
             height: auto;
+        }
+
+        .nav{
+            gap: 1.8rem;
         }
 
         ul>li>a{
@@ -489,13 +564,22 @@
 
         .header-intro-img{
             padding: 0 8%;
-            
+            padding-top: 4.5rem;
+        }
+
+        .intro-image-bg{
+            background-image: url("../images/bg-curvy-mobile.svg");
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            height: auto;
         }
 
         .intro-text-heading{
             font-size: 1.3rem;
             line-height: 1.4;
-            padding: 8% 6%;
+            padding: 6% 6%;
             padding-bottom: 0;
         }
 
@@ -559,15 +643,19 @@
             width: 100%;
         }
 
+        .staying-productive{
+            padding: 0 8%;
+        }
+
         .staying-productive-header{
             font-size: 3.5rem;
             line-height: 1.4;
             padding-bottom: 2rem;
-            text-align: center;
+            text-align: justify;
         }
 
         .staying-productive-description{
-            font-size: 0.7rem;
+            font-size: 0.73rem;
             color: #fff;
             text-align: justify;
         }
@@ -624,12 +712,12 @@
 
         input{
             /* width: 20%; */
-            padding: 1rem 3rem;
+            padding: 1rem 3rem 1rem 1rem;
         }
 
         .cta-support-btn{
             font-size: 0.75rem;
-            padding: 1.1rem 4rem;
+            padding: 1.1rem 3rem;
         } 
 
 
@@ -645,7 +733,8 @@
 
         .footer-logo{
             padding-top: 14rem;
-            width: 50%;
+            width: 40%;
+            margin-left: -8rem;
         }
 
         .footer-navs>li>a{
@@ -668,11 +757,13 @@
 
         .footer-contact-means{
             padding-bottom: 0.5rem;
-            font-size: 0.8rem;
+            font-size: 0.9rem;
+            margin-left: -2rem;
         }
 
         .footer-About-info{
             padding-top: 3.5rem;
+            margin-left: -1.8rem;
         }
         
         .footer-About-text{
@@ -689,7 +780,7 @@
         }
 
         .footer-social-links{
-            margin-left: 10rem;
+            margin-left: 9rem;
             gap: 1rem;
             padding-bottom: 5%;
         }
@@ -701,7 +792,7 @@
         }
     }
 
-    @media only screen and (min-width: 581px) and (max-width: 768px){
+    @media only screen and (min-width: 582px) and (max-width: 768px){
         .nav{
             gap: 1.5rem;
         }
@@ -722,6 +813,7 @@
 
         .header-intro-img{
             padding: 5% 8%;
+            padding-top: 4.5rem;
         }
 
         .header-img{
@@ -730,6 +822,7 @@
         }
 
         .intro-text-heading{
+            margin-top: -2rem;
             font-size: 1.4rem;
             line-height: 1.2;
         }
@@ -745,18 +838,21 @@
         }
 
         main{
-            padding-left: 3%;
-            padding-right: 3%;
+            padding-left: 0;
+            padding-right: 0;
         }
 
         .main-section-1{
-            gap: 5rem;
-            padding-top: 6rem;
+            flex-direction: column;
+            /* padding-top: 8rem; */
+            padding-left: 1%;
+            padding-right: 1%;
         }
 
         .main-section-2{
-            gap: 5rem;
-            padding-top: 6rem;
+            flex-direction: column;
+            gap: 8.5rem;
+            padding-top: 8.5rem;
             /* padding-top: 0; */
         }
 
@@ -777,27 +873,29 @@
         .main-section-2 p{
             font-size: 0.7rem; 
             padding-bottom: 0;
-            color: hsla(0, 0%, 100%, 0.852);
-            
+            color: hsla(0, 0%, 100%, 0.852);  
         }
 
-        /* .file-info{
-            padding-top: 0;
-        } */
+        .main-section-3{
+            flex-direction: column;
+        }
 
         .productive-img{
-            flex: 0 0 45%;
-            padding-left: 0;
-            padding-top: 7rem;
+            /* flex: 0 0 30%;
+            padding-left: 0; */
+            padding-top: 12rem;
         }
 
         .img-productive{
-            width: 85%;
+            width: 80%;
         }    
 
         .staying-productive{
+            padding: 0 6%;
+            padding-top: 10rem;
             flex: 0 0 55%;
         }
+
         .staying-productive-header{
             font-size: 1.3rem;
         }
@@ -825,8 +923,8 @@
         }
 
         .big-quotes{
-            top: -2.5rem;
-            left: 7.5rem;
+            top: 1rem;
+            left: 8.5rem;
         }
 
         .support-box{
@@ -857,12 +955,13 @@
 
         input{
          width: 70%;
-         padding: 1rem 3rem;
+         padding: 1rem 3rem 1rem 1rem;
         }
 
         .cta-support-btn{
             width: 70%;
             font-size: 0.75rem;
+            font-weight: 400;
             padding: 1.1rem 4rem;
         } 
 
@@ -871,13 +970,14 @@
             flex-direction: column;
             align-items: flex-start;
             gap: 0;
-            padding-top: 35%;
+            padding-top: 50%;
             padding-left: 6%;
             padding-right: 6%;
         }
 
         .footer-logo{
-            width: 50%;
+            margin-left: -9rem;
+            width: 40%;
          }
 
         .footer-brand-description{
@@ -886,7 +986,7 @@
         }
 
         .logo-location{
-            width: 5%;
+            width: 4%;
             height: 2%;
         }
 
@@ -902,15 +1002,17 @@
 
         .footer-contact-means{
             padding-bottom: 0.5rem;
-            font-size: 1rem;
+            font-size: 0.9rem;
+            margin-left: -2rem;
         }
 
         .footer-About-info{
             padding-top: 4rem;
+            margin-left: -1.8rem;
         }
 
         .footer-About-text{
-            font-size: 1.1rem ;
+            font-size: 0.95rem ;
         }
         
         .contact-links{
@@ -919,30 +1021,50 @@
         }
 
         .footer-navs>li>a{
-            font-size: 0.9rem;
+            font-size: 0.85rem;
         }
 
         .contact-links p{
-            font-size: 1.1rem ;
+            font-size: 0.95rem ;
         }
         
         .footer-social-links{
-            margin-left: 12rem;
+            margin-left: 13rem;
         }
     }
 
     @media only screen and (min-width: 769px) and (max-width: 850px){
         .intro-text-heading{
-            line-height: 1.1;
+            line-height: 1.3;
         }
+       .header-intro-img{
+        /* padding: 0 2%; */
+        padding-top: 5rem;
        
+       }
+
+       ul>li>a{
+        font-size: 0.8rem;
+       }
+
+       .intro-image-bg{
+        background-image: url("../images/bg-curvy-mobile.svg");
+        background-size:cover;
+        /* height: auto; */
+       }
+
         .intro-paragraph{
             font-size: 0.7rem;
+            line-height: 1.7;
         }
 
         main{
-            padding-left: 2%;
-            padding-right: 2%;
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+
+        .main-section-1{
+            padding-top: -4rem;
         }
 
         .main-section-1 h1{
@@ -952,6 +1074,10 @@
         .main-section-1 p{
             font-size: 0.7rem;  
             color: hsla(0, 0%, 100%, 0.852);
+        }
+
+        .main-section-2{
+            padding-top: 8rem;
         }
 
         .main-section-2 h1{
@@ -964,11 +1090,14 @@
         }
 
         .productive-img{
-            flex: 0 0 45%;
+            flex: 0 0 48%;
         }
 
         .staying-productive{
-            flex: 0 0 55%;
+            flex: 0 0 52%;
+            padding: 0  1%;
+            padding-top: 5rem;
+            
         }
 
         .main-section-3{
@@ -1039,12 +1168,13 @@
 
         input{
          width: 70%;
-         padding: 1rem 3rem;
+         padding: 1rem 3rem 1rem 1rem;
         }
 
         .cta-support-btn{
             width: 70%;
-            font-size: 0.75rem;
+            font-size: 0.8rem;
+            font-weight: 500;
             padding: 1.1rem 4rem;
         } 
 
@@ -1060,6 +1190,7 @@
 
         .footer-logo{
             width: 40%;
+            margin-left: -9rem;
          }
 
         .footer-brand-description{
@@ -1085,10 +1216,12 @@
         .footer-contact-means{
             padding-bottom: 0.5rem;
             font-size: 1rem;
+            margin-left: -2rem;
         }
 
         .footer-About-info{
             padding-top: 4rem;
+            margin-left: -2rem;
         }
 
         .footer-About-text{
@@ -1101,7 +1234,7 @@
         }
 
         .footer-navs>li>a{
-            font-size: 0.9rem;
+            font-size: 0.85rem;
         }
 
         .contact-links p{
@@ -1114,38 +1247,49 @@
 }
 
 
-      @media only screen and (min-width: 851px) and (max-width: 1024px){
+      @media only screen and (min-width: 851px) and (max-width: 1022px){
+        ul>li>a{
+            font-size: 0.85rem;
+        }
         .intro-text-heading{
             line-height: 1.2;
             font-size: 1.6rem;
         }
-
+        .header-intro-img{
+            padding-top: 5rem;
+        }
         .intro-paragraph{
             font-size: 0.8rem;
             line-height: 1.3rem
         }
 
         main{
-            padding-left: 2%;
-            padding-right: 2%;
+            padding-left: 1%;
+            padding-right: 1%;
         }
 
         .main-section-1{
-            gap: 5rem; 
-            padding-top: 8rem;
+            gap: 9rem; 
+            /* padding-top: 4rem; */
+            /* margin-top: -8rem; */
         }
 
         .main-section-1 h1{
-            font-size: 1.3rem; 
+            font-size: 1.1rem; 
         }
 
         .main-section-1 p{
             font-size: 0.7rem; 
             color: hsla(0, 0%, 100%, 0.852);
         }
+        
+        .main-section-2{
+            padding-top: 12rem;
+            gap: 9rem; 
+        }
 
         .main-section-2 h1{
-            font-size: 1.3rem; 
+            font-size: 1.1rem; 
         }
 
         .main-section-2 p{
@@ -1171,11 +1315,11 @@
             flex: 0 0 55%;
         }
         .staying-productive-header{
-            font-size: 1.5rem;
+            font-size: 1.4rem;
         }
 
         .staying-productive-description{
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             color: hsla(0, 0%, 100%, 0.852);
             padding-bottom: 0.7rem;
         
@@ -1225,11 +1369,11 @@
         }
 
         input{
-            padding: 1rem 6.5rem;
+            padding: 1rem 11.5rem 1rem 1rem;
         }
 
         .cta-support-btn{
-            padding: 0.7rem 2.5rem;
+            padding: 0.7rem 2.3rem;
         }
 
         .footer{
@@ -1241,27 +1385,30 @@
             
         .footer-logo{
             width: 40%;
+            margin-left: -7rem;
         }
 
         .footer-brand-description{
-            padding-top: 2.5rem;
+            padding-top: 2rem;
             padding-left: 0;
             gap: 1rem;
         }
 
         .footer-brand-description p{
             text-align: justify;
-            font-size: 0.6rem;
+            font-size: 0.65rem;
         }
 
         .footer-contact-means{
             padding-bottom: 0.5rem;
-            font-size: 0.8rem;
+            font-size: 0.75rem;
+            margin-left: -0.5rem;
         }
 
 
         .footer-About-info{
-            padding-top: 8rem;
+            padding-top: 7.5rem;
+            margin-left: -2rem;
         }
         
         .footer-About-text{
@@ -1269,12 +1416,14 @@
         }
 
         .contact-links{
-            padding-top: 5.5rem;
+            padding-top: 5rem;
+            margin-right: -2rem;
             /* padding-left: ; */
         }
 
         .contact-text{
             font-size:0.8rem;
+            margin-right: -1rem;
         }
 
         .footer-navs>li>a{
@@ -1282,7 +1431,7 @@
         }
 
         .footer-social-links{
-            padding-top: 3.5rem;
+            padding-top: 2rem;
             gap: 1rem;
         }
 
@@ -1293,7 +1442,7 @@
         }
     }
 
-    @media only screen and (min-width: 1025px) and (max-width: 1080px){
+    @media only screen and (min-width: 1023px) and (max-width: 1080px){
         .intro-text-heading{
             line-height: 1.2;
         }
@@ -1310,7 +1459,7 @@
 
         .main-section-1{
             gap: 5rem; 
-            padding-top: 8rem;
+            padding-top: -8rem;
         }
 
         .main-section-1 h1{
@@ -1389,11 +1538,14 @@
         }
 
         input{
-            padding: 1rem 6.5rem;
+            width: auto;
+            padding: 0.9rem 15.5rem 0.9rem 1.9rem;
         }
 
         .cta-support-btn{
-            padding: 0.7rem 5.5rem;
+            font-size: 0.8rem;
+            padding: 0.8rem 1.8rem;
+            font-weight: 400;
         }
 
         .footer{
@@ -1404,11 +1556,12 @@
         }
             
         .footer-logo{
-            width: 40%;
+            width: 38%;
+            margin-left: -11rem;
         }
 
         .footer-brand-description{
-            padding-top: 2.5rem;
+            padding-top: 2rem;
             padding-left: 0;
             gap: 1rem;
         }
@@ -1421,19 +1574,21 @@
         .footer-contact-means{
             padding-bottom: 0.5rem;
             font-size: 0.8rem;
+           margin-left: -4rem;
         }
 
 
         .footer-About-info{
-            padding-top: 8rem;
+            padding-top: 7.8rem;
+            margin-left: -4rem;
         }
-        
+
         .footer-About-text{
             font-size:0.8rem;
         }
 
         .contact-links{
-            padding-top: 5.5rem;
+            padding-top: 5.2rem;
             /* padding-left: ; */
         }
 
@@ -1446,7 +1601,7 @@
         }
 
         .footer-social-links{
-            padding-top: 3.5rem;
+            padding-top: 2.2rem;
             gap: 1rem;
         }
 
